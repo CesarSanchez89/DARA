@@ -1,0 +1,1268 @@
+body{
+    background: #FFFFFF;
+}
+/*menu*/
+
+section.menu header.menu__header{
+    text-align: center;
+    width: 100%;
+}
+
+section.menu header.menu__header div.menu__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+section.menu header.menu__header div.menu__list a{
+    color:#353535;
+}
+
+section.menu header.menu__header div.menu__list a:hover{
+    color:#B27D28;
+}
+
+section.menu header.menu__header div.menu__list h2{
+    font-family:"Montserrat",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.menu__scroll{
+    background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    z-index:1000;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+}
+
+section.menu header.menu__header div.menu__list a{
+    text-decoration: none;
+}
+
+/*banner*/
+
+section.banner div.banner__img{
+    display: flex;
+    justify-content: center;
+}
+
+section.banner div.banner__img img{
+    width: 100%;
+}
+
+.botones{
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, .6);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.botones:hover{
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
+
+.atras{
+    left: 2%;
+    top: calc(50% + 100px);
+}
+
+.adelante{
+    right: 2%;
+    top: calc(50% + 100px);
+}
+
+/*products*/
+
+section.products{
+    display: flex;
+    flex-direction: column;
+    background: #F5F5F5;
+    margin: 1rem;
+}
+
+section.products div.products__head h2{
+    text-align: center;
+}
+
+section.products div.products__store__all{
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 16.5rem;
+}
+
+section.products div.products__head h2.products__head__title{
+    display: flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    justify-content: center;
+}
+
+section.products ul.products__store__list{
+    list-style: none;
+}
+
+section.products ul li.products__store__item__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}
+
+section.products ul.products__store__list a{
+    text-decoration: none;
+}
+
+section.products ul li.products__store__item__link{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+}
+
+/*season*/
+
+section.season{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    
+}
+
+section.season div.season__list div.descripcion{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 12.5rem;
+}
+
+section.season div.season__list div.descripcion h1{
+    font-family:'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 19px;
+}
+
+section.season div.season__list div.descripcion h3{
+    font-family:'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B27D28;
+}
+
+section.season div.season__list div.season__store{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 500px;
+    margin: 1rem 1rem 1rem 10rem;
+}
+
+section.season div.season__publicity{
+    margin: 1rem 9rem 1rem 1rem;
+}
+
+section.season div.season__list div.season__store ul li.products__store__item__img{
+    list-style: none;
+}
+
+/*made in Peru*/
+
+section.description__made div.description__made__title{
+    display: flex;
+    justify-content: center;
+}
+
+section.description__made div.description__made__title h2{
+    font-family:'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #353535;
+}
+
+section.description__made div.description__made__resena{
+    display: flex;
+    justify-content: center;
+}
+
+section.description__made div.description__made__resena p{
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.2;
+    color: #353535;
+    text-align: center;
+}
+
+section.description__made div.description__made__frase{
+    display: flex;
+    justify-content: center;
+}
+
+section.description__made div.description__made__frase p{
+    font-family:"Montserrat",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #b27d28;
+    text-align: center;
+}
+
+/*made photo*/
+
+section.photo__made{
+    display: flex;
+    flex-direction: column;
+}
+
+section.photo__made div.photo__made__photo{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: center;
+}
+
+section.photo__made div.photo__made__bigphoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 1rem 0;
+}
+
+/*footer*/
+
+footer.data__company{
+    background: #353535;
+}
+
+footer.data__company div.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer.data__company div.foot div.foot__logo{
+    margin: 4rem 0 0 0;
+}
+
+footer.data__company div.foot div.foot__content{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 0 0 2rem 0;
+}
+
+footer.data__company div.foot div.foot__content div.foot__content__direction p.strong{
+    font-family:"Montserrat",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+footer.data__company div.foot div.foot__content div.foot__content__direction p.weak{
+    font-family:"Montserrat",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+footer.data__company div.foot ul.foot__box__list a{
+    text-decoration: none;
+}
+
+footer.data__company div.foot ul.foot__box__list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer.data__company div.foot ul li.foot__box__item{
+    font-family: "Montserrat",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+footer.data__company div.foot form.foot__form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+footer.data__company div.foot form p.foot__form__title{
+    font-family: "Montserrat",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+footer.data__company div.foot form input.foot__form__name{
+    width: 300px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+footer.data__company div.foot form input.foot__form__mail{
+    width: 300px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+footer.data__company div.foot form input.foot__form__message{
+    width: 300px;
+    height: 82px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+footer.data__company div.foot form input.foot__form__boton{
+    border-radius: 15px;
+    gap: 10px;
+    width: 150px;
+    height: 51px;
+    background: #B27D28;
+    font-family: "Montserrat",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    border: #B27D28;
+}
+
+.formcontacto__form--invalid .foot__form__name{
+    border: 1px solid rgb(228, 53, 53);
+    border-radius: 7px; 
+}
+
+.formcontacto__form--invalid .foot__form__mail{
+    border: 1px solid rgb(228, 53, 53);
+    border-radius: 7px; 
+}
+
+.formcontacto__form--invalid .foot__form__message{
+    border: 1px solid rgb(228, 53, 53);
+    border-radius: 7px; 
+}
+
+.formcontacto__form--invalid .foot__form__name::placeholder{
+    color: red;  
+}
+
+.formcontacto__form--invalid .foot__form__mail::placeholder{
+    color: red;  
+}
+
+.formcontacto__form--invalid .foot__form__message::placeholder{
+    color: red;  
+}
+
+.input-message-error {
+    display: none;
+}
+
+.formcontacto__form--invalid .input-message-error{
+    color: red;
+    display: block;
+    margin-top: 0.1rem;
+    padding-left: 0.1rem;
+}
+
+footer.data__company div.foot div.foot__content div.foot__content__network p{
+    font-family:"Montserrat",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+/*page tienda Categoria*/
+
+section.tienda{
+    display: flex;
+    flex-direction: row;
+    margin: 4rem;
+}
+
+section.tienda div.categoria h2{
+    display: block;
+    font-family: "Playfair Display",Times,serif;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0 0 0 2rem;
+    color: #353535;
+}
+
+section.tienda div.categoria ul.categoria__list li{
+    list-style: none;
+}
+
+section.tienda div.categoria ul.categoria__list a{
+    text-decoration: none;
+}
+
+section.tienda div.categoria ul.categoria__list li.categoria__list__item{
+    margin: 1rem;
+    font-family: "Montserrat",Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#B27D28
+}
+
+section.tienda div.calzado{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin: 3rem 0 1rem 11rem;
+}
+
+section.tienda div.calzado div.calzado__all p.calzado__all__name{
+    font-family: "Playfair Display",Times,serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #353535;
+}
+
+section.tienda div.calzado div.calzado__all p.calzado__all__price{
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #B27D28;
+}
+
+
+/*page Sobre Nosotros*/
+
+section.sobrenosotros__about{
+    margin: 3rem 0 0 2rem;
+}
+
+section.sobrenosotros__about div.sobrenosotros__about__content{
+    display: flex;
+    flex-direction: column;
+}
+
+section.sobrenosotros__about div.sobrenosotros__about__content h2{
+    font-family: "Playfair Display",Times,serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #353535;
+    font-size: 30px;
+    margin: 0 0 0 3rem;
+}
+
+section.sobrenosotros__about div.sobrenosotros__about__content ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+section.sobrenosotros__about div.sobrenosotros__about__content ul.sobrenosotros__about__list li{
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    list-style: none;
+    margin: 0.5rem;
+    color: #353535;
+    font-size: 12px;
+}
+
+section.sobrenosotros__about div.sobrenosotros__about__content ul.sobrenosotros__about__list a{
+    text-decoration: none;
+}
+
+section.sobrenosotros__about div.sobrenosotros__about__all{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    margin: 0 0 0 3rem;
+}
+
+section.sobrenosotros__about div.sobrenosotros__about__all div.sobrenosotros__about__all__resena div.sobrenosotros__about__all__title h2{
+    font-family: "Playfair Display",Times,serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #353535;
+    font-size: 30px;
+}
+
+section.sobrenosotros__about div.sobrenosotros__about__all div.sobrenosotros__about__all__resena div.sobrenosotros__about__all__description p{
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #353535;
+    font-size: 16px;
+}
+
+section.sobrenosotros__caracteristica{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: #F4E1B9;
+}
+
+section.sobrenosotros__caracteristica div.sobrenosotros__caracteristica__title h2{
+    font-family: "Playfair Display",Times,serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #353535;
+    font-size: 23px;
+    margin:5rem 12rem 5rem 5rem;
+}
+
+section.sobrenosotros__caracteristica div.sobrenosotros__caracteristica__line p{
+    font-family: "Playfair Display",Times,serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: #353535;
+}
+
+section.sobrenosotros__caracteristica div.sobrenosotros__caracteristica__description p{
+    font-family: "Montserrat",Times,serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #353535;
+    margin: 3rem 0 0 0;
+}
+
+section.sobrenosotros__publicity div.sobrenosotros__publicity__photo img{
+    width: 100%;
+}
+
+section.sobrenosotros__publicity div.sobrenosotros__publicity__phrase h2{
+    font-family: "Montserrat",Times,san serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    position: absolute;
+    top:1250px;
+    left: 200px;
+}
+
+section.sobrenosotros__story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 10rem 0;
+}
+
+section.sobrenosotros__story div.sobrenosotros__story__content h2{
+    text-align: center;
+    font-family: "Playfair Display",Times,serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #353535;
+}
+
+section.sobrenosotros__story div.sobrenosotros__story__content p{
+    font-family: "Montserrat",Times,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #353535;
+    text-align: center;
+}
+
+section.sobrenosotros__story div.sobrenosotros__story__buttom input{
+    border-radius: 15px;
+    gap: 10px;
+    width: 200px;
+    height: 51px;
+    background: #B27D28;
+    font-family: "Montserrat",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    border: #B27D28;
+}
+
+/*Hecho por peruanas*/
+
+section.hechoporperuanas__about{
+    margin: 3rem 0 0 2rem;
+}
+
+section.hechoporperuanas__about div.hechoporperuanas__about__content{
+    display: flex;
+    flex-direction: column;
+}
+
+section.hechoporperuanas__about div.hechoporperuanas__about__content h2{
+    font-family: "Playfair Display",Times,serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #353535;
+    font-size: 30px;
+    margin: 0 0 0 3rem;
+}
+
+section.hechoporperuanas__about div.hechoporperuanas__about__content ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+section.hechoporperuanas__about div.hechoporperuanas__about__content ul.hechoporperuanas__about__list li{
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    list-style: none;
+    margin: 0.5rem;
+    color: #353535;
+    font-size: 12px;
+}
+
+section.hechoporperuanas__about div.hechoporperuanas__about__content ul.hechoporperuanas__about__list a{
+    text-decoration: none;
+}
+
+section.hechoporperuanas__about div.hechoporperuanas__about__all{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    margin: 0 0 0 3rem;
+}
+
+section.hechoporperuanas__about div.hechoporperuanas__about__all div.hechoporperuanas__about__all__resena div.hechoporperuanas__about__all__title h2{
+    font-family: "Playfair Display",Times,serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #353535;
+    font-size: 30px;
+}
+
+section.hechoporperuanas__about div.hechoporperuanas__about__all div.hechoporperuanas__about__all__resena div.hechoporperuanas__about__all__title p{
+    font-family: "Montserrat",Times,sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #B27D28;
+    font-size: 16px;
+}
+
+section.hechoporperuanas__about div.hechoporperuanas__about__all div.hechoporperuanas__about__all__resena div.hechoporperuanas__about__all__artesanos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem; 
+}
+
+section.hechoporperuanas__about div.hechoporperuanas__about__all div.hechoporperuanas__about__all__resena div.hechoporperuanas__about__all__buttom input{
+    border-radius: 15px;
+    width: 200px;
+    height: 51px;
+    background: #32373C;
+    font-family: "Montserrat",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    border: #32373C;
+    margin: 2rem 0 0 0;
+}
+
+section.hechoporperuanas__about div.hechoporperuanas__about__all div.hechoporperuanas__about__all__photo img{
+    margin: 0 15rem 1rem 0;
+}
+
+section.hechoporperuanas__story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 8rem 0;
+}
+
+section.hechoporperuanas__story div.hechoporperuanas__story__content h2{
+    text-align: center;
+    font-family: "Playfair Display",Times,serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #353535;
+}
+
+section.hechoporperuanas__story div.hechoporperuanas__story__content p{
+    font-family: "Montserrat",Times,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #353535;
+    text-align: center;
+}
+
+section.hechoporperuanas__publicity div.hechoporperuanas__publicity__photo img{
+    width: 100%;
+}
+
+/*page Contacto*/
+
+section.contacto__page{
+    margin: 4rem;
+}
+
+section.contacto__page div.contacto__page__content h2{
+    font-family: "Playfair Display",Times,serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #353535;
+    font-size: 30px; 
+}
+
+section.contacto__page div.contacto__page__content h3{
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #B27D28;
+    font-size: 16px; 
+}
+
+section.contacto__page div.contacto__page__content p{
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #353535;
+    font-size: 16px; 
+}
+
+section.contacto__publicity div.contacto__publicity__photo img{
+    width: 100%;
+    margin: 0 0 1rem 0;
+}
+
+section.contacto__publicity div.contacto__publicity__phrase{
+    top: 450px;
+    margin: 0 0 0 4rem;
+    position: absolute;
+}
+
+section.contacto__publicity div.contacto__publicity__phrase h2{
+    font-family: "Playfair Display",Times,serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #FFFFFF;
+    font-size: 27px; 
+}
+
+section.contacto__publicity div.contacto__publicity__phrase p{
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #FFFFFF;
+    font-size: 16px; 
+}
+
+
+/*Modal*/
+
+#modal::backdrop {
+    background-color: rgba(0,0,0,.55);
+    
+}
+
+#modal{
+    width: 30ch;
+    height: 20ch;
+    text-align:center;
+}
+
+
+/*responsive*/
+
+@media screen and (max-width:824px){
+
+    /*menu*/
+    section.menu header.menu__header.menu__scroll{
+        width: 804px;
+    }
+    
+    /*banner*/
+
+    .atras{
+        left: 7%;
+        top: calc(50% - 200px);
+    }
+    
+    .adelante{
+        right: 7%;
+        top: calc(50% - 200px);
+    }
+
+    /*products*/
+
+    section.products div.products__store__all{
+        margin: 0;
+    }
+
+    /*Season*/
+
+    section.season{
+        flex-direction: column;
+    }
+
+    section.season div.season__publicity img{
+        width: 120%;
+        margin: 0;
+    }
+    /*photo made*/
+
+    section.photo__made{
+        margin: 0;
+        
+    }
+
+    section.photo__made div.photo__made__photo img{
+       width:100%;
+    }
+
+    section.photo__made div.photo__made__photo img:nth-child(1){
+        display: none;
+    }
+
+    section.photo__made div.photo__made__bigphoto img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*footer*/
+
+    footer.data__company{
+       margin: 0;
+       padding: 0;
+    }
+    
+    footer.data__company div.foot{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer.data__company div.foot div.foot__logo{
+        margin: 2rem 0;
+    }
+
+    footer.data__company div.foot div.foot__content div.foot__content__direction{
+        width: 185px;
+        margin: 0 0 0 1rem;
+    }
+    
+    footer.data__company div.foot ul.foot__box__list{
+        width: 100px;
+    }
+
+    footer.data__company div.foot form.foot__form{
+        height: 350px;
+    }
+    
+    footer.data__company div.foot form input.foot__form__name{
+        width: 300px;
+    }
+
+    footer.data__company div.foot form input.foot__form__mail{
+        width: 300px;
+    }
+    
+    footer.data__company div.foot form input.foot__form__message{
+        width: 300px;
+    }
+
+    /*page Tienda*/
+
+    section.tienda div.calzado{
+        margin: 0 0 0 1.5rem;
+    }
+
+    /*Page Sobrenosotros*/
+
+    section.sobrenosotros__about{
+        margin: 0;
+    }
+
+    section.sobrenosotros__about div.sobrenosotros__about__content{
+        margin: 0;
+        padding: 0;
+    }
+
+    section.sobrenosotros__about div.sobrenosotros__about__all{
+        gap: 0;
+    }
+
+    section.sobrenosotros__about div.sobrenosotros__about__all div.sobrenosotros__about__all__description{
+        width: 300px;
+    }
+
+    /*Page Hecha por Peruanas*/
+
+    section.hechoporperuanas__about div.hechoporperuanas__about__content{
+        margin: 0;
+    }
+
+    section.hechoporperuanas__about div.hechoporperuanas__about__content h2{
+        margin: 0;
+    }
+
+    section.hechoporperuanas__about div.hechoporperuanas__about__content ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    section.hechoporperuanas__about div.hechoporperuanas__about__all{
+        margin: 0;  
+    }
+
+    section.hechoporperuanas__about div.hechoporperuanas__about__all div.hechoporperuanas__about__all__photo img{
+        margin: 0 0.5rem 0 0;  
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    /*menu*/
+
+    section.menu{
+        margin: 0;
+    }
+
+    section.menu header.menu__header.menu__scroll{
+        width: 100%;
+        margin: 0;
+    }
+
+    section.menu header.menu__header.menu__scroll img{
+        margin: 0 0 0 4.5rem;
+    }
+
+    section.menu header.menu__header div.menu__list{
+        display: none;
+    }
+
+    /*banner*/
+    section.banner{
+        width: 384px;
+        padding: 0;
+    }
+
+    section.banner div.banner__img img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .atras{
+        left: 7%;
+        top: calc(50% - 100px);
+    }
+    
+    .adelante{
+        right: 4%;
+        top: calc(50% - 100px);
+    }
+
+    /*products*/
+
+    section.products{
+        width: 384px;
+        margin: 0;
+    }
+
+    section.products div.products__head h2{
+        width: 300px;
+    }
+
+    section.products div.products__store__all{
+        width: 384px;
+        margin: 0;
+    }
+
+    section.season{
+        width: 384px;
+        flex-direction: column;
+        padding: 0;
+        
+    }
+
+    section.season div.season__list div.descripcion{
+        margin: 0;
+        
+    }
+
+    section.season div.season__list div.season__store{
+        flex-direction: column;
+        margin: 0;
+        width: 250px;
+    }
+
+    section.season div.season__list div.season__store ul{
+        margin: 0;
+        padding: 0;
+        align-content: center;
+        align-items: center; 
+    }
+
+    section.season div.season__list div.season__store ul li.products__store__item__img img{
+        width: 110%; 
+    }
+
+    section.season div.season__publicity img{
+        width: 100% 
+    }
+
+    section.description__made{
+        width: 360px;
+    }
+
+    section.description__made div.description__made__title h2{
+        font-size: 25px;
+    }
+
+    section.description__made div.description__made__resena p{
+        font-size: 14px;
+    }
+
+    section.description__made div.description__made__frase p{
+        font-size: 14px;
+    }
+
+    section.photo__made{
+        width: 384px;
+    }
+
+    section.photo__made div.photo__made__photo{
+       flex-direction: column;
+    }
+
+    section.photo__made div.photo__made__bigphoto{
+        display: none;
+     }
+
+    /*footer*/
+
+    footer.data__company{
+        width: 384px;
+        margin: 0; 
+    }
+    
+    footer.data__company div.foot{
+       flex-direction: column;
+       flex-wrap: nowrap;
+    }
+
+    footer.data__company div.foot div.foot__logo{
+        margin: 4rem 0 2rem 0;
+    }
+
+    footer.data__company div.foot div.foot__logo img{
+        width: 100%;
+    }
+
+    footer.data__company div.foot div.foot__content{
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    footer.data__company div.foot div.foot__content div.foot__box ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    footer.data__company div.foot div.foot__content form.foot__form{
+        margin: 0;
+        padding: 0;
+    }
+    
+    footer.data__company div.foot ul.foot__box__list{
+        width: 250px;
+    }
+    
+    footer.data__company div.foot form input.foot__form__name{
+        width: 280px;
+    }
+
+    footer.data__company div.foot form input.foot__form__mail{
+        width: 280px;
+    }
+    
+    footer.data__company div.foot form input.foot__form__message{
+        width: 280px;
+    }
+
+    /*page Tienda*/
+
+    section.tienda{
+        flex-direction: column;
+        margin: 3rem 0;
+    }
+
+    section.tienda div.categoria{
+        margin: 1rem 0;
+    }
+
+    section.tienda div.calzado{
+        margin: 1rem 0 0 1rem;
+    }
+
+    section.tienda div.calzado div.calzado__all{
+        width: 40%;
+    }
+
+    section.tienda div.calzado div.calzado__all img{
+        width: 100%;
+    }
+
+    /*Page Sobrenosotros*/
+
+    section.sobrenosotros__about{
+        margin: 0;
+    }
+
+    section.sobrenosotros__about div.sobrenosotros__about__content{
+        margin: 0;
+        padding: 0;
+    }
+
+    section.sobrenosotros__about div.sobrenosotros__about__content h2{
+        margin: 0;
+    }
+
+    section.sobrenosotros__about div.sobrenosotros__about__content ul{
+        padding: 0;
+    }
+
+    section.sobrenosotros__about div.sobrenosotros__about__all{
+        margin: 0;
+        padding: 0 ;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    section.sobrenosotros__about div.sobrenosotros__about__all div.sobrenosotros__about__all__photo img{
+        width: 100%;
+    }
+
+    section.sobrenosotros__caracteristica{
+        margin: 0;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    section.sobrenosotros__caracteristica div.sobrenosotros__caracteristica__title h2{
+        margin: 2rem;
+    }
+
+    section.sobrenosotros__caracteristica div.sobrenosotros__caracteristica__description p{
+        margin: 0 0 2rem 1rem;
+    }
+
+    section.sobrenosotros__caracteristica div.sobrenosotros__caracteristica__line{
+        display: none;
+    }
+
+    section.sobrenosotros__publicity div.sobrenosotros__publicity__phrase h2{
+        font-size: 24px;
+        top: 1700px;
+        left: 50px;
+    }
+
+    /*page Hecho por peruanas*/
+
+    section.hechoporperuanas__about{
+        margin: 0;
+    }
+
+    section.hechoporperuanas__about div.hechoporperuanas__about__content h2{
+        margin: 0.5rem;
+    }
+
+    section.hechoporperuanas__about div.hechoporperuanas__about__content ul{
+        margin: 0.5rem;
+        padding: 0;
+    }
+
+    section.hechoporperuanas__about div.hechoporperuanas__about__all{
+        margin: 1rem;
+        flex-direction: column;
+    }
+
+    section.hechoporperuanas__about div.hechoporperuanas__about__all div.hechoporperuanas__about__all__photo img{
+        margin: 0;
+        width: 100%;
+        
+    }
+
+    /*Page Contacto*/
+
+    section.contacto__page{
+        margin: 0;
+    }
+
+    section.contacto__publicity div.contacto__publicity__photo img{
+        margin: 0;
+        width: 382px;
+    }
+
+    section.contacto__publicity div.contacto__publicity__phrase h2{
+        font-size: 20px;
+    }
+
+    section.contacto__publicity div.contacto__publicity__phrase p{
+        display: none;
+    }
+}

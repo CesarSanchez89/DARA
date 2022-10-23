@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title> DARA - Calzado y Confección</title>
+</head>
+<body>
+    <section class="menu">
+        <header class="menu__header">
+                <a href="index.html"><img src="./assets/Dara - Logo.png" alt="" class="logo"></a>
+                <div class="menu__list">
+                    <a href="tienda.html"><h2 class="menu__shop">Tienda</h2></a>
+                    <a href="sobrenosotros.html"><h2 class="menu__shop">Sobre Nosotros</h2></a>
+                    <a href="hechoporperuanas.html"><h2 class="menu__shop">Calidad Peruana</h2></a>
+                    <a href="contacto.html"><h2 class="menu__shop">Contacto</h2></a>
+                </div>
+        </header> 
+    </section>
+
+    <section class="tienda">
+        <div class="categoria">
+            <h2 class="categoria__title">Categoria</h2>
+            <ul class="categoria__list">
+                <a href="tienda.html"><li class="categoria__list__item">Boda</li></a>
+                <a href="quince.html"><li class="categoria__list__item">Quince años</li></a>
+                <a href="casual.html"><li class="categoria__list__item">Casual</li></a>
+                <a href="calzadohombre.html"><li class="categoria__list__item">Zapatos Hombre</li></a>
+            </ul>
+        </div>
+    
+        <div class="calzado">
+            <div class="calzado__all">
+                <img class="calzado__all__photo" src="assets/boda1.png" alt="">
+                <p class="calzado__all__name">Modelo X</p>
+                <p class="calzado__all__price">S/. 0.00</p>
+            </div>
+            <div class="calzado__all">
+                <img class="calzado__all__photo" src="assets/boda2.png" alt="">
+                <p class="calzado__all__name">Modelo Y</p>
+                <p class="calzado__all__price">S/. 0.00</p>
+            </div>
+            <div class="calzado__all">
+                <img class="calzado__all__photo" src="assets/boda3.png" alt="">
+                <p class="calzado__all__name">Modelo Z</p>
+                <p class="calzado__all__price">S/. 0.00</p>
+            </div>
+            <div class="calzado__all">
+                <img class="calzado__all__photo" src="assets/boda4.png" alt="">
+                <p class="calzado__all__name">Modelo A</p>
+                <p class="calzado__all__price">S/. 0.00</p>
+            </div>
+            <div class="calzado__all">
+                <img class="calzado__all__photo" src="assets/boda5.png" alt="">
+                <p class="calzado__all__name">Modelo B</p>
+                <p class="calzado__all__price">S/. 0.00</p>
+            </div>
+            <div class="calzado__all">
+                <img class="calzado__all__photo" src="assets/boda6.png" alt="">
+                <p class="calzado__all__name">Modelo C</p>
+                <p class="calzado__all__price">S/. 0.00</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="data__company">
+        <div class="foot">
+            <div class="foot__logo">
+                <img src="./assets/Logofooter.png" alt="" class="">
+            </div>
+            <div class="foot__content">
+                <div class="foot__content__direction">
+                    <p class="strong">DARA E.I.R.L.</p>
+                    <p class="weak">Calle las Carmelitas N°123 - Miraflores</p>
+                </div>
+                <div class="foot__box">
+                    <ul class="foot__box__list">
+                        <a href="tienda.html"><li class="foot__box__item">Tienda</li></a>
+                        <a href="sobrenosotros.html"><li class="foot__box__item">Sobre Nosotros</li></a>
+                        <a href="hechoporperuanas.html"><li class="foot__box__item">Calidad Peruana</li></a>
+                        <a href="contacto.html"><li class="foot__box__item">Contacto</li></a>
+                        <!--<li class="foot__box__item">Programa de fidelidad</li>-->
+                        <!--<li class="foot__box__item">Quiero ser franquiciado</li>-->
+                        <li class="foot__box__item">Escríbenos para anunciar aquí</li>
+                    </ul>
+                </div>
+                <form class="foot__form" name="formulario-contacto">
+                    <p class="foot__form__title">Contáctanos</p>
+                    <div class="input-container">
+                        <input id="input_name" type="text" class="foot__form__name" placeholder="Nombre" required maxlength="40">
+                        <span class="input-message-error">Este campo no puede estar vacío</span>
+                    </div>
+                    <div class="input-container">
+                        <input id="input_mail" type="text" class="foot__form__mail" placeholder="Correo Electrónico" required maxlength="40">
+                        <span class="input-message-error">Este campo no puede estar vacío</span>
+                    </div>
+                    <div class="input-container">
+                        <input id="input_txt" type="text" class="foot__form__message" placeholder="Escribe tu mensaje" required maxlength="120">
+                        <span class="input-message-error">Este campo no puede estar vacío</span>
+                    </div>
+                    <input class="foot__form__boton" id ="enviarCorreo" type="submit" value="Enviar" style="cursor:pointer">
+                    <!--<button type="button" class="foot__form__boton" style="cursor:pointer">Enviar mensaje</button>-->
+                    <dialog id="modal">
+                        <p>Mensaje Enviado</p>
+                        <button type="submit" id="cerra--modal">OK!</button>
+                    </dialog>
+                </form>
+                <div class="foot__content__network">
+                    <p>Síguenos en nuestras Redes</p>
+                    <img src="assets/iconofacebook.png" alt="">
+                    <img src="assets/iconoinstagram.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./js/mail.js"></script>
+    <script type="module" src="./js/validaciones.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="./js/scroll.js"></script>
+    <script type="module" src="./js/carrusel.js"></script>
+</body>
+</html>
