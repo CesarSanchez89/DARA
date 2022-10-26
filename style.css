@@ -274,6 +274,13 @@ section.photo__made div.photo__made__bigphoto{
     margin: 0 0 1rem 0;
 }
 
+section.icono__question div.icono__question__whatsapp{
+    position: fixed;
+    z-index: 1000;
+    top: 550px;
+    right: 3px;
+}
+
 /*footer*/
 
 footer.data__company{
